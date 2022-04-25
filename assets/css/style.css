@@ -11,7 +11,7 @@ body{
 background-size: cover;
 }
 
-/* dropdown menu  */
+/* Dropdown menu  */
 
  nav {
      width: 100%; 
@@ -106,6 +106,7 @@ img {
     height:120px;
     width: 100%;
     background: rgb(32, 52, 38);
+    text-align: center;
 }
     .socials i {
     padding: 3%;
@@ -113,10 +114,6 @@ img {
     margin: 1%;
   color: rgb(242, 247, 243);
 
-}
-
-    .socials {
-    text-align: center;
 }
 
 
