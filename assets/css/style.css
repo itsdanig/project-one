@@ -7,22 +7,22 @@
 
 
 body{
-    background-color:rgb(32, 52, 38);
+    background-color:rgb(230, 239, 233);
 background-size: cover;
 }
 
 #logo {
     float: left;
-    font-size: 250%;
-    margin-left: 20px;
-}
-h1 {
+    font-size: 300%;
+    margin-left: 1%;
     font-family: Work Sans, Raleway;
-    font-size: 40px;
     color:rgb(243, 249, 245) ;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 10px;
+
 }
+
 
 #dropdown-menu {
     float: right;
@@ -31,7 +31,6 @@ h1 {
     font-size: 50px;
     text-decoration:solid;
     font-weight: bolder;
-    
 }
 
 nav {
@@ -47,11 +46,12 @@ nav {
         line-height: 50px;
         float: left;
         padding: 0px 24px;
-    }
+     }
 
    
     nav ul {
     float: left;
+
 }
 
     nav ul li {
@@ -70,9 +70,6 @@ text-decoration: none;
 }
 
 
-
-
-
 /* Image */
 img {
     position: absolute;
@@ -84,26 +81,29 @@ img {
     #footer {
     height: 180px;
     width: 100%;
-    display: inline-block;
-    position: absolute;
+    display: inline;
+    position: fixed;
+    bottom: 0;
     }
 /* Social media  */
     
     .socials {
     text-align: center;
-
-}
-    .socials > i {
-    display:inline;
+    display: inline;
     position: relative;
-    margin: 2%;
-    padding: 5%;
     font-size: 150%;
-    position: absolute;
+    color: rgb(246, 246, 246);
+    bottom: 100%;
+
 }
 
 .socials i {
     font-size: 150%;
-    color: rgb(243, 248, 244);
+    color: rgb(250, 255, 253);
+    bottom: 100%;
 }
 
+ul li {
+    display: inline-block;
+    letter-spacing: 10px;
+}
