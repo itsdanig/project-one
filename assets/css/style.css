@@ -67,11 +67,6 @@ text-decoration: none;
     z-index: 10;
 }
 
-    nav ul li:hover ul {
-    display: block;
-   }
-
-
     nav ul li ul li a {
 padding:10px 12px;
 color: rgb(23, 19, 27);
@@ -99,7 +94,9 @@ img {
     position: fixed;
     bottom:0;
 }
+
 /* Social media  */
+    
     .socials {
     position:fixed;
     bottom:0;
@@ -107,6 +104,7 @@ img {
     width: 100%;
     background: rgb(32, 52, 38);
     text-align: center;
+
 }
     .socials i {
     padding: 3%;
