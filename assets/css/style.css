@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 
@@ -12,7 +11,7 @@ body{
 background-size: cover;
 }
 
-/* dropdown menu styling */
+/* dropdown menu  */
 
  nav {
      width: 100%; 
@@ -85,7 +84,7 @@ padding:20p10px 12px;
 background-color:rgb(79, 121, 97);
 }
 
-/* Image styling */
+/* Image */
 img {
     position: absolute;
     object-fit: cover;
@@ -100,7 +99,7 @@ img {
     position: fixed;
     bottom:0;
 }
-/* Social media styling */
+/* Social media  */
     .socials {
     position:fixed;
     bottom:0;
