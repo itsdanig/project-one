@@ -85,13 +85,13 @@ img {
 
 }
 
-.socials i {
+    .socials i {
     font-size: 150%;
     color: rgb(246, 246, 246);
     bottom: 100%;
 }
 
-ul li {
+  .socials ul li {
     display: inline-block;
     letter-spacing: 10px;
 }
@@ -104,16 +104,6 @@ ul li {
     padding: 0 3rem ;
     margin-top: 4rem;
   
-   
-}
+   }
 
-.about-us h1 p {
-    position: absolute;
-    margin: 10px auto;
-    text-align: center;
-    top: -50%;
-    bottom: 100%;
-    margin-left: 0;
-    margin-right: 60%;
-    
-}
+
