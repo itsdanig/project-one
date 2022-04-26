@@ -8,14 +8,14 @@
 
 
 body{
-    background-color:rgb(230, 239, 233);
-background-size: cover;
+    font-family: Raleway, Work Sans;
+
 }
 
 #logo {
     float: left;
     font-size: 300%;
-    font-family: Work Sans, Raleway;
+    font-family: Raleway, Work Sans;
     color:rgb(243, 249, 245) ;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -24,41 +24,42 @@ background-size: cover;
 }
 
 
+nav {
+    width: 100%; 
+    height: 60px;
+    background-color: rgb(32, 52, 38);
+}
+
+
+
 #dropdown-menu {
     float: right;
-    font-size: x-large;
-    text-transform: uppercase;
-    font-size: 50px;
     font-weight: bolder;
 }
 
 
 
-nav {
-     width: 100%; 
-     height: 60px;
-     background-color: rgb(32, 52, 38);
- }
 
 
-    nav ul li {
+nav ul li {
     float: left;
     list-style: none;
     position: relative;
 }
 
-    nav ul li a {
+nav ul li a {
     display: block ;
-    font-family: Work sans, Raleway;
+    font-family: Raleway, Work Sans;
     font-size: 20px;
     padding: 18px 14px;
     color: rgb(239, 247, 242);
-text-decoration: none;
-letter-spacing: 4px;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 
+  /* Image */
 
-/* Image */
+
 img {
     position: absolute;
     object-fit: cover;
@@ -66,16 +67,17 @@ img {
     height: 100%;
  }
 
-    #footer {
+ #footer {
     height: 180px;
     width: 100%;
     display: inline;
     position: fixed;
     bottom: 0;
     }
-/* Social media  */
+
+    /* Social media  */
     
-    .socials {
+.socials {
     text-align: center;
     display: inline;
     position: relative;
@@ -85,13 +87,13 @@ img {
 
 }
 
-    .socials i {
+.socials i {
     font-size: 150%;
     color: rgb(246, 246, 246);
     bottom: 100%;
 }
 
-  .socials ul li {
+.socials ul li {
     display: inline-block;
     letter-spacing: 10px;
 }
@@ -103,7 +105,13 @@ img {
     margin: 0 auto;
     padding: 0 3rem ;
     margin-top: 4rem;
+    font-weight: bolder;
   
    }
 
 
+.about-us h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-weight: 600;
+}
