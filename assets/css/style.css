@@ -39,11 +39,9 @@ nav {
 
 
 
-
-
 nav ul li {
     float: left;
-    list-style: none;
+    list-style-type: none;
     position: relative;
 }
 
