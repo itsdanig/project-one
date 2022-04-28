@@ -58,32 +58,25 @@ background-color:rgb(167, 183, 162);
     width: 100%; 
     height: 60px;
     background-color:rgb(184, 207, 174);
+    display: flex;
     
 }
 
 
 
 
-.navbar a:hover {
-    float: left;
-    font-weight: bolder;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    width: 100%;
-}
 
-.active {
-    border-bottom: 1px solid rgb(32, 52, 38);
-}
 
 .navbar ul li {
     float: right;
     list-style-type: none;
     position: relative;
     margin-left: 10px;
+    
 }
 
 .navbar ul li a {
-    display: block ;
+    position: relative;
     font-family: Raleway, Work Sans;
     font-size: 20px;
     padding: 18px 14px;
@@ -93,7 +86,31 @@ background-color:rgb(167, 183, 162);
     font-weight: bolder;
 }
 
+.navbar ul li a:hover {
+color: white;
+transition: .9s;
 
+}
+
+.navbar ul li a:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scaleX(0);
+    -webkit-transform: translateX(-50%) scale(0);
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+ -webkit-transition: transform 250ms;
+ transition: transform 250ms;
+}
+
+.navbar ul li a:hover:after {
+    -webkit-transform: translate(-50%) scale(1);
+    transform: translateX(-50%) scaleX(1);
+}
 /* social media links */
     
 .woods-image {
@@ -128,10 +145,6 @@ background-color:rgb(167, 183, 162);
     letter-spacing: 10px;
     
 }
-
-
-
-
 
 
 #footer {
