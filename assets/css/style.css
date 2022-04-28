@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Work+Sans:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 * {
@@ -35,6 +34,7 @@ background-color:rgb(167, 183, 162);
     background-size:contain;
     margin: 0px;
     display: grid;
+    opacity: 0.5;
     
 }
 
@@ -132,137 +132,7 @@ background-color:rgb(167, 183, 162);
 
 
 
-.container {
-    position: absolute;
-    width: 1200px;
-    height: 0;
-    margin: 100px auto;
-    top: 150%;
-    left: 50%;
-    right: 0px;
-   transform: translate(-50%,-50%);
-   display: flex;
-   align-items: center;
-}
 
-.container .box {
-    position: relative;
-    width: 360px;
-    height: 360px;
-    background: rgb(168, 153, 153);
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-    
-}
-
-.container .box .icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: inherit;
- }
-
-.container .box:hover .icon {
-    top: 20px;
-    right: -15px;
-
-}
-
-.container .box .content {
-    position: absolute;
-    top: 10px;
-    height: 100%;
-    text-align: center;
-    padding: 20px;
-    color: black;
-    box-sizing: border-box;
-}
-
-
-
-.instructors {
-    padding: 0;
-    margin: 0;
-    font-family: Bebas Neue;
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.instructors-text {
-    text-align: center;
-    margin: 12px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
-#location-list {
-text-align: left;
-}
-
-#locations-text {
-    text-align: center;
-    margin: 12px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
-
-
-#locations {
-    padding: 0;
-    margin: 0;
-    font-family: Bebas Neue;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 2px;
-
-}
-
-#other-services {
-    padding: 0;
-    margin: 0;
-    font-family: Bebas Neue;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 2px;
-}
-
-#other-services-text {
-    text-align: center;
-    margin: 12px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    line-height: 25px;
-}
-
-
-.btn {
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    border: 2px solid rgb(59, 74, 63);
-    margin: 40px;
-    font-family: Raleway, Work Sans;
-    font-weight: bolder;
-    font-size: 18px;
-}
-
-.btn:hover {
-    background-color: rgb(168, 192, 171);
-}
 
 #footer {
     height: 40px;
