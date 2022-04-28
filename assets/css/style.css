@@ -59,28 +59,10 @@ background-color:rgb(167, 183, 162);
     height: 60px;
     background-color:rgb(184, 207, 174);
     display: flex;
+    font-size: 24px;
 }
 
 
-.navbar ul li {
-    float: right;
-    list-style-type: none;
-    position: absolute;
-    margin-left: 10px;
-    
-}
-
-.navbar ul li a {
-    position: relative;
-    font-family: Raleway, Work Sans;
-    font-size: 20px;
-    padding: 18px 14px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bolder;
-    float: right;
-}
 
 /* social media links */
     
