@@ -15,15 +15,37 @@ background-color:rgb(167, 183, 162);
 
 
 #logo {
-    float: left;
-    font-size: 300%;
+  float: left;
+    font-size: 50px;
     font-family: Raleway, Work Sans;
-    color:rgb(0, 0, 0);
+    color:#000000;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-left: 1%;
-
+    letter-spacing: 5px;
+    margin-left: 10%;
 }
+
+
+
+nav ul li {
+    float: right;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block ;
+    font-family: Work sans, Raleway;
+    font-size: 30px;
+    padding: 18px 14px;
+    color: rgb(2, 2, 2);
+text-decoration: none;
+}
+
+   
+
+
+
+
 
 .image-overlay img {
     height: 100%;
@@ -50,8 +72,6 @@ background-color:rgb(167, 183, 162);
     position: absolute;
 
 }
-
-
 
 
 .navbar {
