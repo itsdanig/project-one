@@ -37,7 +37,7 @@ nav {
 
 nav .logo {
     font-size: 30px;
-    font-weight: bold;
+    font-weight:500;
     letter-spacing: 1.5px;
 }
 
@@ -68,13 +68,63 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(167, 183, 162);
+    color: rgb(76, 52, 52);
     }
 
-nav ul li .active {
-    color: rgb(167, 183, 162)
+nav ul li a.active {
+    color: rgb(76, 52, 52); 
 }
 
+#nav-toggle {
+    position: absolute;
+}
+
+nav .burger {
+    display: none;
+position: absolute;
+right: 5%;
+top: 50%;
+transform: translate(-50%);
+
+}
+
+nav .burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3px;
+}
+@media screen and (max-width:768px) {
+    nav .logo {
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .links {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        top: 180px;
+        bottom: 0;
+        width: auto;
+        flex-direction: column;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+
+    nav .links a {
+        font-size: 20px;
+    }
+
+    nav .burger {
+        display: block;
+    }
+
+ }
+
+ 
    
 .image-overlay img {
     height: 100%;
