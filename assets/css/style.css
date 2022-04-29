@@ -193,6 +193,19 @@ transform: rotateY(-10px) rotate(225deg);
    
     }
 
+    .about {
+        text-align: center;
+        position: relative;
+        font-size:40px;
+    }
+
+.about h1 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 
 
 .socials {
@@ -217,6 +230,7 @@ transform: rotateY(-10px) rotate(225deg);
     letter-spacing: 10px;
     
 }
+
 
 
 #footer {
