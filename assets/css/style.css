@@ -13,39 +13,34 @@ body{
     font-family: Raleway, Work Sans;
 background-color:rgb(167, 183, 162);
 }
- header {
-     height: 1000px;
-     width: 1000px;
-     background-position: center;
-     background-size: cover;
-     min-height: 1000px;
- }
+
 
 #logo {
   float: left;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Raleway, Work Sans;
     color:#000000;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-left: 10%;
-    
-}
+     }
 
 nav {
     width: 100%;
     height: 75px;
     background-color: rgb(188, 217, 183);
     line-height: 75px;
-    padding: 0px 100px;
+    padding: 1rem;
     position: fixed;
     z-index: 1;
+    min-height: 75px;
 }
 
 nav .logo {
     font-size: 30px;
-    font-weight:500;
+    font-weight:bold;
     letter-spacing: 1.5px;
+    margin-right: -5%;
+
 }
 
 nav .logo h1 {
@@ -71,7 +66,7 @@ nav ul li a {
     font-family: Work Sans, Raleway;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 0px 32px;
+    margin: 1rem;
 }
 
 nav ul li a:hover {
