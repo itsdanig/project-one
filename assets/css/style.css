@@ -203,6 +203,16 @@ align-items: center;
 left: 55px;
 }
 
+.button {
+    position: relative;
+    top: -140%;
+    width: 1000px;
+    margin: 560px;
+    text-align: center;
+    align-items: center;
+    left: 55px; 
+}
+
 /* social media links */
     
 .woods-image {
@@ -227,6 +237,17 @@ left: 55px;
 }
 
 
+.instructors {
+    margin-top: 10%;
+   
+}
+
+.instructors h3 {
+    font-family: Raleway, Work Sans;
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
 
 .socials {
     text-align: center;
