@@ -27,7 +27,6 @@ background-color:rgb(167, 183, 162);
 nav {
     width: 100%;
     height: 75px;
-    background-color: rgb(188, 217, 183);
     line-height: 75px;
     padding: 1rem;
     position: fixed;
@@ -51,9 +50,10 @@ nav ul li a {
     color: #000000;
     text-decoration: none;
     font-family: Work Sans, Raleway;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     margin: 1rem;
+    font-weight: bold;
     
 }
 
@@ -180,25 +180,27 @@ transform: rotateY(-10px) rotate(225deg);
 
 #about {
     position: relative;
-    top: 150px;
+    top: 400px;
     width: 1000px;
     margin: 560px;
 text-align: center;
 align-items: center;
 left: 55px;
 bottom: 50%;
+font-size: 35px;
+font-weight: bold;
+text-transform: uppercase;
 }
 
 #about-text {
-position: relative;
-top: 80%;
-width: 980px;
-margin: 550px;
+    position: relative;
+top: -140px;
+    width: 1000px;
+    margin: 560px;
 text-align: center;
 align-items: center;
-
+left: 55px;
 }
-
 
 /* social media links */
     
