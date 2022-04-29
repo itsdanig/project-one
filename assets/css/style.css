@@ -69,10 +69,12 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(76, 52, 52);
+    
     }
 
 nav ul li a.active {
     color: rgb(76, 52, 52); 
+    
 }
 
 #nav-toggle {
