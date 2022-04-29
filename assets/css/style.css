@@ -54,6 +54,7 @@ nav ul li a {
     font-size: 18px;
     text-transform: uppercase;
     margin: 1rem;
+    
 }
 
 nav ul li a:hover {
@@ -164,28 +165,38 @@ transform: rotateY(-10px) rotate(225deg);
 
 }
 
-.about {
-    display: inline-block;
-}
 
-.about h1 {
-    display:block;
-    width: 500px;
-    margin: 60%;
+.about  {
+    display:inline-block;
+    width: 50%;
+    margin: 0 auto;
     left: -28%;
-    text-transform: uppercase;
-    font-size: 30px;
+    text-transform: lowercase;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    position: relative;    
 }
 
-.about h1 p {
-    display: block;
-    width: 500px;
-    margin: 60%;
-    left: 28%;
-    font-weight: bold;
-    top: 20%;
-    bottom: 50%;
+#about {
+    position: relative;
+    top: 150px;
+    width: 1000px;
+    margin: 560px;
+text-align: center;
+align-items: center;
+left: 55px;
+bottom: 50%;
+}
+
+#about-text {
+position: relative;
+top: 80%;
+width: 980px;
+margin: 550px;
+text-align: center;
+align-items: center;
+
 }
 
 
