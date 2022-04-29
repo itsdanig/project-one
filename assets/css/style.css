@@ -13,7 +13,12 @@ body{
     font-family: Raleway, Work Sans;
 background-color:rgb(167, 183, 162);
 }
-
+ header {
+     height: 1000px;
+     width: 1000px;
+     background-position: center;
+     background-size: cover;
+ }
 
 #logo {
   float: left;
@@ -23,6 +28,7 @@ background-color:rgb(167, 183, 162);
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-left: 10%;
+    
 }
 
 nav {
@@ -158,6 +164,7 @@ transform: rotateY(-10px) rotate(225deg);
     margin: 0px;
     display: grid;
     opacity: 0.5;
+    overflow: hidden;
     
 }
 
