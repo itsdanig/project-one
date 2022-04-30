@@ -210,6 +210,14 @@ display: inline;
     color: #000000;
     font-size: 26px;
     margin-top: 50px;
+    padding:40px;
+}
+
+.about-section .about-us .paragraph {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px o;
+
 }
 
 
